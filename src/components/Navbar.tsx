@@ -10,7 +10,7 @@ export default function Navbar() {
     { name: "About", href: "#about" },
     { name: "Impact", href: "#impact" },
     { name: "Agenda", href: "#agenda" },
-    { name: "Register", href: "#", primary: true },
+    { name: "Register", href: "https://evregister.com/event/reg/annual-convention-on-south-south-triangular-cooperation", primary: true },
   ];
 
   return (
@@ -29,6 +29,7 @@ export default function Navbar() {
             <a
               key={link.name}
               href={link.href}
+              {...(link.primary && { target: "_blank", rel: "noopener noreferrer" })}
               className={`text-sm font-medium transition-colors ${
                 link.primary 
                   ? "bg-brand-teal text-white px-5 py-2 rounded-xl hover:bg-brand-teal/90" 
@@ -49,8 +50,6 @@ export default function Navbar() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
-      {isOpen && (
         <motion.div 
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -61,6 +60,7 @@ export default function Navbar() {
               key={link.name}
               href={link.href}
               onClick={() => setIsOpen(false)}
+              {...(link.primary && { target: "_blank", rel: "noopener noreferrer" })}
               className={`text-base font-medium p-2 transition-colors ${
                 link.primary 
                   ? "bg-brand-teal text-white text-center rounded-xl py-3" 
@@ -71,7 +71,6 @@ export default function Navbar() {
             </a>
           ))}
         </motion.div>
-      )}
     </nav>
   );
 }

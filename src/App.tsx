@@ -105,9 +105,14 @@ export default function App() {
                Registration is now open for international delegates, government officials, and development partners.
              </p>
              <div className="flex flex-col sm:flex-row justify-center gap-4 relative z-10">
-               <button className="px-10 py-5 bg-brand-teal text-white rounded-2xl font-bold text-lg shadow-xl shadow-brand-teal/30 hover:scale-105 active:scale-95 transition-all">
+               <a
+                 href="https://evregister.com/event/reg/annual-convention-on-south-south-triangular-cooperation"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 className="px-10 py-5 bg-brand-teal text-white rounded-2xl font-bold text-lg shadow-xl shadow-brand-teal/30 hover:scale-105 active:scale-95 transition-all"
+               >
                  Register for ACSSTrC 2026
-               </button>
+               </a>
                <button className="px-10 py-5 bg-white text-slate-900 border border-slate-200 shadow-sm rounded-2xl font-bold text-lg hover:bg-slate-50 transition-all">
                  Contact Secretariat
                </button>
