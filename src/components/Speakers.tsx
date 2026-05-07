@@ -6,6 +6,13 @@ import olivierImg from "../../assets/Hon. Olivier J.P. Nduhungirehe.jpg";
 
 const SPEAKERS = [
   {
+    name: "Hon. Olivier J.P. Nduhungirehe",
+    role: "Minister of Foreign Affairs and International Cooperation",
+    image: olivierImg,
+    agendaTime: "9:42 am",
+    day: 0
+  },
+  {
     name: "Richard Niwenshuti",
     role: "CEO, Rwanda Cooperation",
     image: richardImg,
@@ -17,13 +24,6 @@ const SPEAKERS = [
     role: "UN Rwanda Resident Coordinator a.i. & UNDP Resident Representative",
     image: fatmataImg,
     agendaTime: "9:35 am",
-    day: 0
-  },
-  {
-    name: "Hon. Olivier J.P. Nduhungirehe",
-    role: "Minister of Foreign Affairs and International Cooperation",
-    image: olivierImg,
-    agendaTime: "9:42 am",
     day: 0
   }
 ];
