@@ -113,14 +113,10 @@ export default function App() {
                >
                  Register for ACSSTrC 2026
                </a>
-               <button className="px-10 py-5 bg-white text-slate-900 border border-slate-200 shadow-sm rounded-2xl font-bold text-lg hover:bg-slate-50 transition-all">
-                 Contact Secretariat
-               </button>
              </div>
           </div>
         </section>
       </main>
-
       <Footer />
     </div>
   );

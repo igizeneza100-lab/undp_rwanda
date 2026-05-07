@@ -1,5 +1,5 @@
 
-import { Linkedin, Youtube } from "lucide-react";
+import { Instagram, Youtube } from "lucide-react";
 import { CONVENTION_CONTENT } from "../constants";
 
 export default function Footer() {
@@ -17,13 +17,13 @@ export default function Footer() {
             Strengthening collaboration and institutional frameworks for effective implementation of South-South and Triangular Cooperation.
           </p>
           <div className="flex gap-4">
-            <a href="#" className="w-10 h-10 rounded-xl bg-slate-800 flex items-center justify-center hover:bg-brand-teal transition-colors">
-              <img src="https://img.icons8.com/ios/50/twitterx--v2.png" alt="X (Twitter)" className="w-5 h-5 invert" />
+            <a href="https://x.com/Cooperation_RW" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-xl bg-slate-800 flex items-center justify-center hover:bg-brand-teal transition-colors">
+              <img src="https://img.icons8.com/ios/50/twitterx--v2.png" alt="X" className="w-5 h-5 invert" />
             </a>
-            <a href="#" className="w-10 h-10 rounded-xl bg-slate-800 flex items-center justify-center hover:bg-brand-teal transition-colors">
-              <Linkedin size={18} />
+            <a href="https://www.instagram.com/cooperation_rw/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-xl bg-slate-800 flex items-center justify-center hover:bg-brand-teal transition-colors">
+              <Instagram size={18} />
             </a>
-            <a href="#" className="w-10 h-10 rounded-xl bg-slate-800 flex items-center justify-center hover:bg-brand-teal transition-colors">
+            <a href="https://www.youtube.com/@Cooperation_RW" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-xl bg-slate-800 flex items-center justify-center hover:bg-brand-teal transition-colors">
               <Youtube size={18} />
             </a>
           </div>
