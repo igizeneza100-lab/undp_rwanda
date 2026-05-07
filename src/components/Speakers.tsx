@@ -9,21 +9,18 @@ const SPEAKERS = [
     name: "Hon. Olivier J.P. Nduhungirehe",
     role: "Minister of Foreign Affairs and International Cooperation",
     image: olivierImg,
-    agendaTime: "9:42 am",
     day: 0
   },
   {
     name: "Richard Niwenshuti",
     role: "CEO, Rwanda Cooperation",
     image: richardImg,
-    agendaTime: "9:30 am",
     day: 0
   },
   {
     name: "Dr. Fatmata Lovetta Sesay",
     role: "UN Rwanda Resident Coordinator a.i. & UNDP Resident Representative",
     image: fatmataImg,
-    agendaTime: "9:35 am",
     day: 0
   }
 ];
@@ -46,7 +43,7 @@ export default function Speakers() {
             viewport={{ once: true }}
             className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6"
           >
-            Speakers
+              Speakers
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
@@ -81,10 +78,7 @@ export default function Speakers() {
                 </div>
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-2">{speaker.name}</h3>
-              <p className="text-brand-teal font-extrabold text-sm uppercase tracking-wider mb-2">{speaker.role}</p>
-              <div className="inline-flex items-center gap-2 text-slate-500 text-xs font-bold uppercase tracking-widest bg-slate-100 px-3 py-1 rounded-full">
-                <span>Starts {speaker.agendaTime}</span>
-              </div>
+              <p className="text-brand-teal font-extrabold text-sm uppercase tracking-wider">{speaker.role}</p>
             </motion.div>
           ))}
         </div>
