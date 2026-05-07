@@ -6,6 +6,7 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Speakers from "./components/Speakers";
 import Agenda from "./components/Agenda";
 import Footer from "./components/Footer";
 import { motion } from "motion/react";
@@ -35,6 +36,8 @@ export default function App() {
         </section>
 
         <About />
+
+        <Speakers />
 
         {/* Expected Outcomes Section - Orange Background Style from PDF */}
         <section className="py-32 bg-brand-orange text-white overflow-hidden relative">

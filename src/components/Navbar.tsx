@@ -9,6 +9,7 @@ export default function Navbar() {
 
   const navLinks: { name: string; href: string; primary?: boolean }[] = [
     { name: "About", href: "#about" },
+    { name: "Speakers", href: "#speakers" },
     { name: "Agenda", href: "#agenda" },
     { name: "Register", href: "https://evregister.com/event/reg/annual-convention-on-south-south-triangular-cooperation", primary: true },
   ];

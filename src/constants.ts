@@ -37,7 +37,9 @@ export const CONVENTION_CONTENT = {
       day: "Day 1: 22 June 2026",
       sessions: [
         { time: "8:00 am", title: "Arrival and accreditation of participants" },
-        { time: "9:30 am", title: "Opening Ceremony", description: "Video: Strengthening collaboration & institutional frameworks (3 mins)\n\nOpening remarks: Richard Niwenshuti, CEO, Rwanda Cooperation (5 mins)\n\nRemarks: Dr. Fatmata Lovetta Sesay, UN Rwanda Resident Coordinator a.i. and UNDP Resident Representative Rwanda (7 mins)\n\nKeynote Address: Hon. Olivier J.P. Nduhungirehe, Minister of Foreign Affairs and International Cooperation (10 mins)" },
+      { time: "9:30 am", title: "Opening Ceremony", 
+          description: "Video: Strengthening collaboration & institutional frameworks (3 mins)\n\n**Richard Niwenshuti**, CEO, Rwanda Cooperation (5 mins)\n\n**Dr. Fatmata Lovetta Sesay**, UN Rwanda Resident Coordinator a.i. and UNDP Resident Representative Rwanda (7 mins)\n\n**Hon. Olivier J.P. Nduhungirehe**, Minister of Foreign Affairs and International Cooperation (10 mins)" 
+        },
         { time: "10:15 am", title: "Plenary Session: Institutional capacity building for South-South and Triangular Cooperation", description: "Discussion and debate on policy frameworks and strategies that will accelerate the formation and impact of SSTrC partnerships" },
         { time: "11:15 am", title: "Break" },
         { time: "11:30 am", title: "Plenary: UN Day for South-South Cooperation (SSC)", description: "Mobilising multi-stakeholder partnerships to unlock the potential of South-South and Triangular Cooperation" },

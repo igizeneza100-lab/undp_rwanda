@@ -1,6 +1,7 @@
 
 import { Instagram, Youtube } from "lucide-react";
 import { CONVENTION_CONTENT } from "../constants";
+import logo from "../../assets/logo.png";
 
 export default function Footer() {
   return (
@@ -8,10 +9,8 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-12 mb-16">
         <div className="col-span-2">
           <div className="flex items-center gap-3 mb-8">
-            <div className="w-10 h-10 bg-brand-teal rounded-lg flex items-center justify-center text-white font-bold text-xl">
-              S
-            </div>
-            <span className="font-bold text-2xl tracking-tight">ACSSTrC 2026</span>
+            <img src={logo} alt="ACSSTrC Logo" className="h-16 w-auto object-contain" />
+            <h3 className="text-2xl font-bold">SSTC-Convention 2026</h3>
           </div>
           <p className="text-slate-400 text-lg max-w-md mb-8">
             Strengthening collaboration and institutional frameworks for effective implementation of South-South and Triangular Cooperation.
@@ -34,23 +33,22 @@ export default function Footer() {
           <ul className="space-y-4 text-slate-400 font-medium">
             <li><a href="#about" className="hover:text-white transition-colors">About</a></li>
             <li><a href="#agenda" className="hover:text-white transition-colors">Program</a></li>
-            <li><a href="#" className="hover:text-white transition-colors">Registration</a></li>
-            <li><a href="#" className="hover:text-white transition-colors">Venue Info</a></li>
+            <li><a href="https://evregister.com/event/reg/annual-convention-on-south-south-triangular-cooperation" className="hover:text-white transition-colors">Registration</a></li>
           </ul>
         </div>
 
         <div>
           <h4 className="font-bold text-lg mb-6">Contact</h4>
           <ul className="space-y-4 text-slate-400 font-medium">
-            <li>Kimihurura Roundabout, P.O. Box 6629, Kigali</li>
-            <li>kcc.kigali@radissonblu.com</li>
-            <li>+250 250-2522-5252</li>
+            <li>21, KG 7 Avenue, Kigali-Rwanda</li>
+            <li>kflora.kaitesi@undp.org</li>
+            <li>+250 788 830 866</li>
           </ul>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center text-slate-500 text-sm font-medium gap-4">
-        <p>© 2026 Rwanda Cooperation. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Rwanda Cooperation. All rights reserved.</p>
       </div>
     </footer>
   );

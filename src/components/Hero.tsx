@@ -68,19 +68,6 @@ export default function Hero() {
 
       {/* Main Content */}
       <div className="relative z-10 max-w-4xl mx-auto text-center w-full flex-1 flex flex-col items-center justify-center py-8">
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.6 }}
-          className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 text-white text-xs font-semibold mb-4 border border-white/20"
-        >
-          <span className="relative flex h-2 w-2">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-teal opacity-75"></span>
-            <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-teal"></span>
-          </span>
-          INAUGURAL CONVENTION 2026
-        </motion.div>
-
         <h1
           ref={titleRef}
           className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight mb-4 sm:mb-6"

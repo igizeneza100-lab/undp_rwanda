@@ -43,32 +43,32 @@ export default function About() {
             transition={{ duration: 0.8 }}
             className="grid grid-cols-2 gap-6"
           >
-            <div className="p-8 bg-brand-teal rounded-[2rem] text-white flex flex-col justify-between aspect-square">
+            <div className="p-6 sm:p-8 bg-brand-teal rounded-[2rem] text-white flex flex-col justify-between aspect-square">
               <Globe size={40} className="mb-4 opacity-80" />
               <div>
-                <div className="text-4xl font-bold mb-1">Globally</div>
-                <div className="text-teal-100 font-medium">Focused Impact</div>
+                <div className="text-2xl sm:text-4xl font-bold mb-1 break-words">Globally</div>
+                <div className="text-teal-100 text-sm sm:text-base font-medium">Focused Impact</div>
               </div>
             </div>
-            <div className="p-8 bg-brand-yellow rounded-[2rem] text-slate-900 flex flex-col justify-between aspect-square mt-12">
+            <div className="p-6 sm:p-8 bg-brand-yellow rounded-[2rem] text-slate-900 flex flex-col justify-between aspect-square mt-6 sm:mt-12">
               <Users size={40} className="mb-4 opacity-80" />
               <div>
-                <div className="text-4xl font-bold mb-1">500+</div>
-                <div className="text-slate-700 font-medium">Delegates</div>
+                <div className="text-2xl sm:text-4xl font-bold mb-1">500+</div>
+                <div className="text-slate-700 text-sm sm:text-base font-medium">Delegates</div>
               </div>
             </div>
-            <div className="p-8 bg-slate-100 rounded-[2rem] text-slate-900 flex flex-col justify-between aspect-square -mt-12">
+            <div className="p-6 sm:p-8 bg-slate-100 rounded-[2rem] text-slate-900 flex flex-col justify-between aspect-square -mt-6 sm:-mt-12">
               <Target size={40} className="mb-4 text-brand-orange opacity-80" />
               <div>
-                <div className="text-4xl font-bold mb-1">7 Years</div>
-                <div className="text-slate-700 font-medium">Rwanda Cooperation</div>
+                <div className="text-2xl sm:text-4xl font-bold mb-1">7 Years</div>
+                <div className="text-slate-700 text-sm sm:text-base font-medium">Rwanda Cooperation</div>
               </div>
             </div>
-            <div className="p-8 bg-brand-orange rounded-[2rem] text-white flex flex-col justify-between aspect-square">
+            <div className="p-6 sm:p-8 bg-brand-orange rounded-[2rem] text-white flex flex-col justify-between aspect-square">
               <CheckCircle2 size={40} className="mb-4 opacity-80" />
               <div>
-                <div className="text-4xl font-bold mb-1">100%</div>
-                <div className="text-orange-100 font-medium">Committed</div>
+                <div className="text-2xl sm:text-4xl font-bold mb-1">100%</div>
+                <div className="text-orange-100 text-sm sm:text-base font-medium">Committed</div>
               </div>
             </div>
           </motion.div>
