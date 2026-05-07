@@ -115,16 +115,14 @@ export default function Hero() {
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-teal opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-brand-teal"></span>
           </span>
-          ANNUAL CONVENTION 2026
+          INAUGURAL CONVENTION 2026
         </motion.div>
 
         <h1 
           ref={titleRef}
           className="text-2xl sm:text-3xl md:text-5xl font-extrabold text-white tracking-tight leading-[1.1] mb-6 sm:mb-8 px-2"
         >
-          {CONVENTION_CONTENT.title.split(' ').map((word, i) => (
-            <span key={i} className={i > 3 ? "text-brand-yellow" : ""}>{word} </span>
-          ))}
+          INAUGURAL CONVENTION ON SOUTH-SOUTH & TRIANGULAR COOPERATION
         </h1>
 
         <motion.p 

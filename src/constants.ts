@@ -36,22 +36,28 @@ export const CONVENTION_CONTENT = {
       day: "Day 1: 22 June 2026",
       sessions: [
         { time: "8:00 am", title: "Arrival and accreditation of participants" },
-        { time: "9:30 am", title: "Opening Ceremony", description: "Video: Strengthening collaboration & institutional frameworks. Opening remarks: Patricie Uwase, CEO, Rwanda Cooperation." },
-        { time: "10:15 am", title: "Plenary Session: Institutional capacity building for South-South and Triangular Cooperation" },
-        { time: "11:30 am", title: "Plenary: UN Day for South-South Cooperation (SSC)" },
-        { time: "1:30 pm", title: "Parallel sessions", subSessions: ["Ministerial Roundtable on e-Government", "Workshop: Amplifying women voices", "Workshop: The Knowledge Center"] },
-        { time: "4:15 pm", title: "Closing Spotlight: Youth in South-South Cooperation" },
-        { time: "6:45 pm", title: "Gala dinner: Celebrating 7 years of Rwanda Cooperation" }
+        { time: "9:30 am", title: "Opening Ceremony", description: "Video: Strengthening collaboration & institutional frameworks (3 mins)\n\nOpening remarks: Richard Niwenshuti, CEO, Rwanda Cooperation (5 mins)\n\nRemarks: Dr. Fatmata Lovetta Sesay, UN Rwanda Resident Coordinator a.i. and UNDP Resident Representative Rwanda (7 mins)\n\nKeynote Address: Hon. Olivier J.P. Nduhungirehe, Minister of Foreign Affairs and International Cooperation (10 mins)" },
+        { time: "10:15 am", title: "Plenary Session: Institutional capacity building for South-South and Triangular Cooperation", description: "Discussion and debate on policy frameworks and strategies that will accelerate the formation and impact of SSTrC partnerships" },
+        { time: "11:15 am", title: "Break" },
+        { time: "11:30 am", title: "Plenary: UN Day for South-South Cooperation (SSC)", description: "Mobilising multi-stakeholder partnerships to unlock the potential of South-South and Triangular Cooperation" },
+        { time: "12:30 pm", title: "Lunch" },
+        { time: "1:30 pm", title: "Parallel sessions", subSessions: ["Ministerial Roundtable on e-Government: Building Citizen-Centered Digitalization", "Workshop: Amplifying women voices - Advancing Gender Equity through Inclusive South-South partnerships", "Workshop: The Knowledge Center - Hosted by Rwanda Cooperation Governance Center"] },
+        { time: "3:00 pm", title: "Break" },
+        { time: "3:15 pm", title: "Plenary: Leveraging South-South Cooperation to Finance SDGs", description: "Debate on policy frameworks and strategies for SDG-aligned finance and how South-South & Triangular Cooperation can accelerate partnership formation" },
+        { time: "4:15 pm", title: "Closing Spotlight: Youth in South-South Cooperation", description: "Anchored on YouthConnekt—a Rwandan-born platform connecting young people to opportunities, markets, mentorship, and policy dialogue across borders" },
+        { time: "6:45 pm", title: "Gala dinner", description: "Opening remarks, Video: RCI over the last 7 years, Partner keynote, Guest of honour: Hon. Olivier J.P. Nduhungirehe, Minister of Foreign Affairs and International Cooperation (Toast)" },
+        { time: "9:00 pm", title: "Close" }
       ]
     },
     {
       day: "Day 2: 23 June 2026",
       sessions: [
-        { time: "9:30 am", title: "Field visits", subSessions: ["Innovation Centers", "Environmental & Climate Action projects", "Bilateral meetings"] },
-        { time: "2:00 pm", title: "Development Partners’ Roundtable: Global Partnerships for Effective Development" },
-        { time: "3:00 pm", title: "Plenary: For people & planet: Further & faster together" },
-        { time: "4:30 pm", title: "Closing Plenary" },
-        { time: "5:00 pm", title: "Cocktail reception" }
+        { time: "9:30 am", title: "Field visits", subSessions: ["Innovation Centers", "Environmental & Climate Action projects", "Bilateral meetings in the Rwanda Cooperation Governance Centre Lounge"] },
+        { time: "12:30 pm", title: "Lunch" },
+        { time: "2:00 pm", title: "Development Partners' Roundtable: Global Partnerships for Effective Development", description: "To maximize impact, stronger cooperation is needed with international financial institutions and regional development banks" },
+        { time: "3:00 pm", title: "Plenary: For people & planet: Further & faster together", description: "South-South Cooperation for Climate Adaptation and Sustainable Development - mainstreaming climate adaptation in national and regional development agendas" },
+        { time: "4:30 pm", title: "Closing Plenary", description: "Key outcomes and recommendations" },
+        { time: "5:00 pm - 7:30 pm", title: "Cocktail reception" }
       ]
     }
   ]
