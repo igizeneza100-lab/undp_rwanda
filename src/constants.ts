@@ -1,5 +1,6 @@
 
 export const CONVENTION_CONTENT = {
+  abbreviation: "ACSSTrC 2026",
   title: "ANNUAL CONVENTION ON SOUTH-SOUTH & TRIANGULAR COOPERATION",
   theme: "Strengthening collaboration and institutional frameworks for effective implementation",
   date: "22–23 June 2026",

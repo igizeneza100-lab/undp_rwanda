@@ -165,9 +165,7 @@ export default function Hero() {
             Secure Your Seat
             <ChevronRight className="group-hover:translate-x-1 transition-transform" size={20} />
           </a>
-          <button className="px-6 sm:px-8 py-3 sm:py-4 bg-white text-brand-teal border-2 border-brand-teal/20 rounded-xl sm:rounded-2xl font-bold text-sm sm:text-lg hover:bg-slate-50 transition-all w-full sm:w-auto">
-            Download Prospectus
-          </button>
+          
         </motion.div>
       </div>
 

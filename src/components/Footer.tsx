@@ -42,9 +42,9 @@ export default function Footer() {
         <div>
           <h4 className="font-bold text-lg mb-6">Contact</h4>
           <ul className="space-y-4 text-slate-400 font-medium">
-            <li>Kigali, Rwanda</li>
-            <li>convention@rwanda-cooperation.gov.rw</li>
-            <li>+250 7XX XXX XXX</li>
+            <li>Kimihurura Roundabout, P.O. Box 6629, Kigali</li>
+            <li>kcc.kigali@radissonblu.com</li>
+            <li>+250 250-2522-5252</li>
           </ul>
         </div>
       </div>
