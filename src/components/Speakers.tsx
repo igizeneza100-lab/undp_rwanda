@@ -3,6 +3,26 @@ import { motion } from "motion/react";
 import richardImg from "../../assets/Richard Niwenshuti.jpg";
 import fatmataImg from "../../assets/Dr. Fatmata Lovetta Sesay.jpeg";
 import olivierImg from "../../assets/Hon. Olivier J.P. Nduhungirehe.jpg";
+import angelaImg from "../../assets/Angela Zeleza.jpg";
+import assiaImg from "../../assets/Assia Toure Sar.jpeg";
+import belenImg from "../../assets/H.E. Mrs. Belén CALVO UYARRA EU Ambassador.jpg";
+import habtamuImg from "../../assets/Habtamu Fuje.jpg";
+import yusufImg from "../../assets/Hon. Yusuf Murangwa.jpg";
+import jacquesImg from "../../assets/Jacques Butera.jpeg";
+import laureImg from "../../assets/Laure Bella Ange Izere.jpeg";
+import maxwellImg from "../../assets/Maxwell Gomera.jpg";
+import rajivImg from "../../assets/Rajiv Garg .jpeg";
+import salamaImg from "../../assets/Salama Umuhoza.jpeg";
+import tikikelImg from "../../assets/Tikikel Tadele Alemu.jpg";
+import samuelImg from "../../assets/ Samuel Doe Samuel Doe.jpg";
+import chanceImg from "../../assets/Chance Tubane.jpeg";
+import marleneImg from "../../assets/Marlene Ngoyi.webp";
+import liekeImg from "../../assets/Lieke Van de Wiel.jpg";
+import sahrImg from "../../assets/Dr. Sahr John Kpundeh.jpg";
+import saraImg from "../../assets/Sara Hamouda Senior.jpeg";
+import paulaImg from "../../assets/Hon. Paula Ingabire.jpg";
+import israelImg from "../../assets/ Israel Bimpe Israel.jpg";
+import antoineImg from "../../assets/Antoine Sebera Chief Executive Officer, RISA.jpeg";
 
 const SPEAKERS = [
   {
@@ -21,6 +41,126 @@ const SPEAKERS = [
     name: "Dr. Fatmata Lovetta Sesay",
     role: "UN Rwanda Resident Coordinator a.i. & UNDP Resident Representative",
     image: fatmataImg,
+    day: 0
+  },
+  {
+    name: "Chance Tubane",
+    role: "Chief Operations Officer, Rwanda Cooperation",
+    image: chanceImg,
+    day: 0
+  },
+  {
+    name: "Marlene Ngoyi Mvidia",
+    role: "Head of Mission, FEDA",
+    image: marleneImg,
+    day: 0
+  },
+  {
+    name: "Lieke Van de Wiel",
+    role: "Country Representative, UNICEF Rwanda",
+    image: liekeImg,
+    day: 0
+  },
+  {
+    name: "Dr. Sahr John Kpundeh",
+    role: "Country Director, World Bank Rwanda",
+    image: sahrImg,
+    day: 0
+  },
+  {
+    name: "Sara Hamouda",
+    role: "Senior Continental Governance Officer, APRM",
+    image: saraImg,
+    day: 0
+  },
+  {
+    name: "Hon. Paula Ingabire",
+    role: "Minister of ICT & Innovation",
+    image: paulaImg,
+    day: 0
+  },
+  {
+    name: "Israel Bimpe",
+    role: "Chief Executive Officer, Irembo",
+    image: israelImg,
+    day: 0
+  },
+  {
+    name: "Antoine Sebera",
+    role: "Chief Executive Officer, RISA",
+    image: antoineImg,
+    day: 0
+  },
+  {
+    name: "Tikikel Tadele Alemu",
+    role: "Programme Management Specialist, UN Women Rwanda",
+    image: tikikelImg,
+    day: 0
+  },
+  {
+    name: "Maxwell Gomera",
+    role: "UNDP Resident Representative, UNDP South Africa",
+    image: maxwellImg,
+    day: 0
+  },
+  {
+    name: "Samuel Doe",
+    role: "UNDP Resident Representative, UNDP Ethiopia",
+    image: samuelImg,
+    day: 0
+  },
+  {
+    name: "Hon. Yusuf Murangwa",
+    role: "Minister of Finance and Economic Planning",
+    image: yusufImg,
+    day: 0
+  },
+  {
+    name: "Assia Toure Sarr",
+    role: "Representative, African Development Bank",
+    image: assiaImg,
+    day: 0
+  },
+  {
+    name: "Habtamu Fuje",
+    role: "Representative, IMF",
+    image: habtamuImg,
+    day: 0
+  },
+  {
+    name: "H.E. Mrs. Belén CALVO UYARRA",
+    role: "EU Ambassador, European Union",
+    image: belenImg,
+    day: 0
+  },
+  {
+    name: "Angela Zeleza",
+    role: "Head of Office and Strategic Planner, UN RCO",
+    image: angelaImg,
+    day: 0
+  },
+  {
+    name: "Rajiv Garg",
+    role: "Senior Programme Management Officer, UNEP",
+    image: rajivImg,
+    day: 0
+  },
+  {
+    name: "Laure Bella Ange Izere",
+    role: "Founder and CEO, ILBA Products Ltd",
+    image: laureImg,
+    day: 0
+  },
+  {
+    name: "Salama Umuhoza",
+    role: "Founder and CEO, Salama Tours and Travel Agency Ltd",
+    image: salamaImg,
+    day: 0
+  },
+  {
+    name: "Jacques Butera",
+    role: "Founder, Jabu Clothing",
+    image: jacquesImg,
     day: 0
   }
 ];
