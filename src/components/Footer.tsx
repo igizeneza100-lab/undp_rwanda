@@ -33,7 +33,7 @@ export default function Footer() {
           <ul className="space-y-4 text-slate-400 font-medium">
             <li><a href="#about" className="hover:text-white transition-colors">About</a></li>
             <li><a href="#agenda" className="hover:text-white transition-colors">Program</a></li>
-            <li><a href="https://evregister.com/event/reg/annual-convention-on-south-south-triangular-cooperation" className="hover:text-white transition-colors">Registration</a></li>
+            <li><a href="https://evregister.com/event/reg/inaugural-convention-on-south-south-and-triangular-cooperation" className="hover:text-white transition-colors">Registration</a></li>
           </ul>
         </div>
 

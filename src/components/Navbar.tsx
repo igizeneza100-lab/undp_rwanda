@@ -11,7 +11,7 @@ export default function Navbar() {
     { name: "About", href: "#about" },
     // { name: "Speakers", href: "#speakers" },
     { name: "Agenda", href: "#agenda" },
-    { name: "Register", href: "https://evregister.com/event/reg/annual-convention-on-south-south-triangular-cooperation", primary: true },
+    { name: "Register", href: "https://evregister.com/event/reg/inaugural-convention-on-south-south-and-triangular-cooperation", primary: true },
   ];
 
   return (

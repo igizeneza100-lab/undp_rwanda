@@ -107,7 +107,7 @@ export default function Hero() {
           className="w-full sm:w-auto"
         >
           <a
-            href="https://evregister.com/event/reg/annual-convention-on-south-south-triangular-cooperation"
+            href="https://evregister.com/event/reg/inaugural-convention-on-south-south-and-triangular-cooperation"
             target="_blank"
             rel="noopener noreferrer"
             className="group px-8 py-3 bg-brand-teal text-white rounded-xl font-bold text-sm shadow-lg shadow-brand-teal/30 hover:bg-brand-teal/90 transition-all flex items-center justify-center gap-2 w-full sm:w-auto"

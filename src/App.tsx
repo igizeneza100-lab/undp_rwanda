@@ -109,7 +109,7 @@ export default function App() {
              </p>
              <div className="flex flex-col sm:flex-row justify-center gap-4 relative z-10">
                <a
-                 href="https://evregister.com/event/reg/annual-convention-on-south-south-triangular-cooperation"
+                 href="https://evregister.com/event/reg/inaugural-convention-on-south-south-and-triangular-cooperation"
                  target="_blank"
                  rel="noopener noreferrer"
                  className="px-10 py-5 bg-brand-teal text-white rounded-2xl font-bold text-lg shadow-xl shadow-brand-teal/30 hover:scale-105 active:scale-95 transition-all"
