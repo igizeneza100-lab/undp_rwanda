@@ -1,10 +1,30 @@
 
 import { motion } from "motion/react";
-import { Clock, Plus, Minus } from "lucide-react";
+import { Clock } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
 import { CONVENTION_CONTENT } from "../constants";
 import gsap from "gsap";
 import agendaBg from "../../assets/agenda bg.jpeg";
+
+interface SubSession {
+  title: string;
+  room?: string;
+  discussants?: string[];
+  speakers?: string[];
+  moderator?: string;
+  description?: string;
+}
+
+interface Session {
+  time: string;
+  title: string;
+  room?: string;
+  description?: string;
+  keynote?: string;
+  speakers?: string[];
+  moderator?: string;
+  subSessions?: SubSession[];
+}
 
 export default function Agenda() {
   const [activeDay, setActiveDay] = useState(0);
@@ -74,7 +94,7 @@ export default function Agenda() {
         </div>
 
         <div className="space-y-6">
-          {CONVENTION_CONTENT.agenda[activeDay].sessions.map((session, i) => (
+          {(CONVENTION_CONTENT.agenda[activeDay].sessions as Session[]).map((session, i) => (
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -92,20 +112,68 @@ export default function Agenda() {
                   <h3 className="text-xl font-bold text-white mb-2 group-hover:text-brand-yellow transition-colors">
                     {session.title}
                   </h3>
+                  {session.room && (
+                    <p className="text-brand-yellow font-bold mb-2">{session.room}</p>
+                  )}
                   {session.description && (
-                    <p className="text-slate-200 font-medium leading-relaxed">
+                    <p className="text-slate-200 font-medium leading-relaxed whitespace-pre-line">
                       {session.description}
                     </p>
                   )}
+                  {session.keynote && (
+                    <div className="mt-4">
+                      <h4 className="font-bold text-white">Keynote:</h4>
+                      <p className="text-slate-200">{session.keynote}</p>
+                    </div>
+                  )}
+                  {session.speakers && (
+                    <div className="mt-4">
+                      <h4 className="font-bold text-white">Speakers:</h4>
+                      <ul className="list-disc list-inside text-slate-200">
+                        {session.speakers.map((speaker, j) => <li key={j}>{speaker}</li>)}
+                      </ul>
+                    </div>
+                  )}
+                  {session.moderator && (
+                    <div className="mt-4">
+                      <h4 className="font-bold text-white">Moderator:</h4>
+                      <p className="text-slate-200">{session.moderator}</p>
+                    </div>
+                  )}
                   {session.subSessions && (
-                    <div className="mt-4 flex flex-wrap gap-2">
+                    <div className="mt-4 space-y-4">
                       {session.subSessions.map((sub, j) => (
-                        <span 
-                          key={j} 
-                          className="text-xs font-bold uppercase tracking-wider text-brand-yellow bg-brand-yellow/10 px-3 py-1.5 rounded-lg border border-brand-yellow/20"
-                        >
-                          {sub}
-                        </span>
+                        <div key={j} className="bg-black/20 p-4 rounded-xl border border-white/10">
+                          <h4 className="font-bold text-white">{sub.title}</h4>
+                          {sub.room && <p className="text-brand-yellow font-bold mb-2">{sub.room}</p>}
+                          {sub.discussants && (
+                            <div className="mt-2">
+                              <h5 className="font-bold text-white">Discussants:</h5>
+                              <ul className="list-disc list-inside text-slate-200">
+                                {sub.discussants.map((discussant, k) => <li key={k}>{discussant}</li>)}
+                              </ul>
+                            </div>
+                          )}
+                          {sub.speakers && (
+                            <div className="mt-2">
+                              <h5 className="font-bold text-white">Speakers:</h5>
+                              <ul className="list-disc list-inside text-slate-200">
+                                {sub.speakers.map((speaker, k) => <li key={k}>{speaker}</li>)}
+                              </ul>
+                            </div>
+                          )}
+                          {sub.moderator && (
+                            <div className="mt-2">
+                              <h5 className="font-bold text-white">Moderator:</h5>
+                              <p className="text-slate-200">{sub.moderator}</p>
+                            </div>
+                          )}
+                           {sub.description && (
+                            <p className="text-slate-200 font-medium leading-relaxed mt-2">
+                              {sub.description}
+                            </p>
+                          )}
+                        </div>
                       ))}
                     </div>
                   )}
