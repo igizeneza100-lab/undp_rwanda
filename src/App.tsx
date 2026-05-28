@@ -11,10 +11,17 @@ import Agenda from "./components/Agenda";
 import Footer from "./components/Footer";
 import { motion } from "motion/react";
 import { CONVENTION_CONTENT } from "./constants";
+import { Helmet } from "react-helmet-async";
 
 export default function App() {
   return (
     <div className="min-h-screen bg-white">
+      <Helmet>
+        <title>Inaugural Convention on South-South &amp; Triangular Cooperation 2026 | Kigali, Rwanda</title>
+        <meta name="description" content="Join the Inaugural Annual Convention on South-South &amp; Triangular Cooperation (ACSSTrC 2026), June 22–23, 2026 at Kigali Convention Centre, Rwanda. Hosted by Rwanda Cooperation and UNDP." />
+        <meta name="keywords" content="South-South Cooperation, Triangular Cooperation, development finance, global south partnerships, international development, sustainable development goals, Africa development, emerging economies, Kigali convention 2026, UNDP events, Rwanda Cooperation forum, SSTrC partnerships, e-government, gender equity, climate finance, youth in development, global cooperation" />
+        <link rel="canonical" href="https://sstc-convention.com/" />
+      </Helmet>
       <Navbar />
       
       <main>
