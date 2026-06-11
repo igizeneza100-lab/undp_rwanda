@@ -22,7 +22,9 @@ export const CONVENTION_CONTENT = {
     "Government agencies, South-South and Triangular Cooperation agencies",
     "United Nations agencies",
     "Development Partners and Nongovernmental organisations, Development Financial Institutions (DFIs)",
-    "Business leaders"
+    "Business leaders",
+    "Youth innovators",
+    "Academia"
   ],
   outcomes: [
     "Enhanced understanding and greater awareness of the importance and potential of SSTrC in addressing global development challenges",
