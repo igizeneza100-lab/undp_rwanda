@@ -92,7 +92,7 @@ export const CONVENTION_CONTENT = {
                 "Ms. Isabella Schmidt, Regional Specialist on Gender Data and Statistics, UN Women Rwanda",
                 "Representative from GIZ"
               ],
-              moderator: "Tikikel Tadele Alemu, Programme Management Specialist, UN Women Rwanda"
+              moderator: "Tikikel Tadele Alemu, UN Women Rwanda Acting Country Representative"
             }
           ] 
         },

@@ -93,7 +93,7 @@ const SPEAKERS = [
   },
   {
     name: "Tikikel Tadele Alemu",
-    role: "Programme Management Specialist, UN Women Rwanda",
+    role: "UN Women Rwanda Acting Country Representative",
     image: tikikelImg,
     day: 0
   },
