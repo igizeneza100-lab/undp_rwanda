@@ -24,7 +24,7 @@ export default function Hero() {
 
   useEffect(() => {
     const updateCountdown = () => {
-      const distance = new Date(2026, 5, 22).getTime() - Date.now();
+      const distance = new Date('2026-06-22T00:00:00').getTime() - Date.now();
       if (distance > 0) {
         setCountdown({
           days: Math.floor(distance / (1000 * 60 * 60 * 24)),
@@ -51,7 +51,7 @@ export default function Hero() {
 
   const countdownUnits = [
     { value: countdown.days, label: "Days", color: "text-brand-teal" },
-    { value: countdown.hours, label: "Hrs", color: "text-brand-teal" },
+    { value: countdown.hours, label: "Hours", color: "text-brand-teal" },
     { value: countdown.minutes, label: "Mins", color: "text-brand-teal" },
     { value: countdown.seconds, label: "Secs", color: "text-brand-yellow" },
   ];

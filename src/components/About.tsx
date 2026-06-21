@@ -19,8 +19,11 @@ export default function About() {
               Driving Change through <br/>
               <span className="text-brand-yellow">South-South Cooperation</span>
             </h2>
-            <p className="text-lg text-slate-600 mb-10 leading-relaxed">
-              {CONVENTION_CONTENT.about.description}
+            <p className="text-lg text-slate-600 mb-6 leading-relaxed font-medium italic border-l-4 border-brand-teal pl-4">
+              {CONVENTION_CONTENT.intro}
+            </p>
+            <p className="text-base text-slate-600 mb-10 leading-relaxed">
+              {CONVENTION_CONTENT.sstrcDescription}
             </p>
 
             <div className="space-y-6">
